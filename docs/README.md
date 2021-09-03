@@ -8,12 +8,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](/images/screenshot.png "screenshot")
+![screenshot](images/screenshot.png "screenshot")
 
 
 you can try it from here:
 
-- Live Site URL:(https://ibrahim11elian.github.io/books-review/)
+- Live Site URL:(https://ibrahim11elian.github.io/yellow-moon/)
 
 
 ### Built with
