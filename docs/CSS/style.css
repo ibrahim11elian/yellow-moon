@@ -66,6 +66,9 @@ a{
 /*end global rules*/  
 
 /* start header section*/
+.header{
+    overflow: hidden;
+}
 .header .header-background{
     width: 100%;
     height: 100vh;
@@ -126,6 +129,12 @@ a{
 .scroll img:hover{
     margin-top: 20px;
 }
+@media (max-width:500px) {
+    .header .header-background{
+        width: 140%;
+        margin-left: -50px;
+    }
+}
 /*end the header section*/
 
 /*start the main nav bar*/
@@ -160,44 +169,14 @@ a{
 .nav-bar ul li a:hover{
     color: black;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 768px){
     .nav-bar{
         height: 150px;
-        margin-top: -5px;
-    }
-    .nav-bar ul{
-        margin-top: 5px;
-    }
-    .nav-bar ul a{
-        width: 100%;
-        padding-left: 0%;
-    }
-    .nav-bar ul a .logo{
-        width: 30%;
-    }
-    .nav-bar ul {
-        height: 130px;
-        padding: 0;
-        justify-content: space-around;
-    }
-    .nav-bar ul li{
-        height: 40px;
-        width: 100px;
-        padding-top: 10px;
-        border: var(--border);
-        margin: 5px;
-    }
-    .nav-bar ul li a{
-        padding-left: 0;
-    }
-}
-@media (max-width: 375px){
-    .nav-bar{
         padding-bottom: 0px;
     }
     .nav-bar ul{
         margin-top: 5px;
+        justify-content: space-around;
     }
     .nav-bar ul a .logo{
         width: 50%;
@@ -453,7 +432,7 @@ input:nth-child(4){
     height: 200px;
     margin-top: 10px;
 }
-@media (max-width:375px) {
+@media (max-width:768px) {
     .contact-us form{
         width: 90%;
     }
